@@ -1,0 +1,35 @@
+<html>
+<head>
+
+	<title>AI Object Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.jpeg">
+<center>
+<h1 class="btn btn-danger heading">AI Object Finder</h1>
+<h2 id="note" class="btn btn-danger"> Note: When you write an object in the input, the model will let you know when it has found it</h2>
+<h3> Object Name: </h3>
+<input type="text" id="input">
+<br>
+<button id="start" onclick="start()" class="btn btn-warning"> Start </button>
+<br>
+<br>
+<h4 id="status" class="btn btn-success"></h4>
+<h4 class="btn btn-info"></h4>
+</center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
